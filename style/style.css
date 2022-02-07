@@ -1,0 +1,640 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Nunito', sans-serif;
+}
+
+.navbar{
+    padding: 20px 4rem;
+    background-color: aqua;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    z-index: 2;
+    background-color: white;
+}
+
+.left{
+    text-align: left;
+    width: 40%;
+}
+
+.left img{
+    width: 30%;
+    
+}
+
+.right{
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 8rem;
+    
+}
+
+.navbar .right a{
+    
+    color: black;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;
+    
+}
+
+.sectionF{
+    background-image: url(https://getmasum.com/html-preview/nour/assets/img/slider/1.jpg);
+    background-position: center;
+    background-size: cover;
+    padding: 16rem 4rem;
+    text-align: center;
+    position: relative;
+    z-index: +1;
+}
+
+.overlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0%;
+    left: 0%;
+    background-color: black;
+    opacity: 0.5;
+    z-index: -1;
+}
+
+.centre{
+    color: white;
+}
+
+.centre p{
+    font-size: 20px;
+}
+
+.centre h1{
+    font-size: 55px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.centre a{
+    color: white;
+    padding: 20px 30px;
+    background-color: #6168FF;
+    border-radius: 5px;
+    transition: 0.5s;
+    border: solid 1px #6168FF;
+}
+
+.centre a:hover{
+    background-color: transparent;
+    border: white 1px solid;
+}
+
+.SectionT{
+    padding: 80px 4rem;
+    display: flex;
+    align-items: center;
+}
+
+.SectionT .left{
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+
+.left .box{
+    width: 45%;
+    margin-bottom: 30px;
+}
+
+.left .box i{
+    font-size: 50px;
+    color: #6168FF;
+}
+
+.left .box h3{
+    font-size: 18px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.left .box p{
+    line-height: 30px;
+    color: grey;
+}
+
+.SectionT .right{
+    height: 450px;
+    width: 50%;
+    background-color: #6168FF;
+    
+}
+
+.right img{
+    width: 100%;
+    
+    
+}
+
+.SectionT .right i{
+    margin-right: 300px;
+}
+
+
+.top{
+    position: relative;
+    text-align: center;
+    width: 100%;  
+    background-color: #fff;
+    margin-bottom: 30px;
+   
+}
+
+.top h1{
+    opacity: 0.1;
+    font-size: 73px;
+    
+}
+
+.top .front{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);    
+}
+
+.top .front h2{
+    font-size: 15px;
+    line-height: 25px;
+    color: #6168FF;
+    
+}
+
+.top .front p{
+    font-size: 27px;
+    color: #333; 
+}
+
+.fly{
+    display: flex;
+    justify-content: space-around;
+}
+
+.fly .box{
+    width: 28%;
+    
+}
+
+.fly .box img{
+  width: 100%;
+  border: 1px solid grey;
+  border-radius: 5px;
+}
+
+.fly .box{
+    position: relative;
+    
+}
+
+.fly .boxc{
+    margin-left: -100px;
+    margin-right: -100px;
+}
+.fly .box .btext{
+    padding: 0 4rem;
+    text-align: left;
+    position: absolute;
+    bottom: 0px;
+    background-color: white;
+    width: 100%;
+    height: 25%;
+    border: 1px solid grey;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.fly .box .btext h4{
+    margin-top: 23px;
+    display: inline-block;
+    margin-bottom: 7px;
+    font-size: 20px;
+    color: black;
+}
+
+.fly .box .btext p{
+    color: #727272;
+}
+
+.fly .box .btext i{
+    font-size: 14px;
+    color: #727272;
+}
+
+.fly .box .btext span{
+    float: right;
+    margin-top: 24px;
+    color: #727272;
+}
+
+.bonus{
+    margin-top: 70px;
+}
+
+.bonus .bonuses{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4rem;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.bonus .bonuses .box{
+   width: 31.5%;
+   padding: 40px 40px 40px 45px;
+   background-color: #F4F9FF;
+   display: flex;
+   margin-bottom: 20px;
+   border-radius: 5px;
+}
+
+.bonus .bonuses .box .icons{
+    font-size: 50px;
+    color: #6168FF;
+    
+}
+
+.bonus .bonuses .box .text{
+    text-align: left;
+    margin-left: 20px;
+    width: auto;
+    
+}
+
+.bonus .bonuses .box .text h4{
+    color: black;
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+
+.bonus .bonuses .box .text p{
+    color: #727272;
+    font-size: 15px;
+}
+
+.country{
+    margin-top: 70px;
+}
+
+.country .countres{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 0 1.7rem;
+}
+
+.countres .country_item{
+    width: 28%;
+    position: relative;
+    margin-bottom: 30px;  
+    z-index: 1;
+}
+
+
+.country_photo{
+    width: 100%;
+    vertical-align: bottom;
+}
+
+.countres .country_item .country_content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: rgba(97, 104, 255, .8);
+    top: 0;
+    left: 0;
+    z-index: 2;
+    opacity: 0;  
+    transition: .4s;
+}
+
+.country_item:hover .country_content{
+    opacity: 1;
+}
+
+.country_content .text{
+    font-size: 20px;
+    color: white;  
+    text-align: center; 
+}
+
+.country_content a{
+    padding: 25px 25px;
+    background-color: #fff;
+    position: relative;
+    position: absolute;
+    right: 30px;
+    bottom: 30px;
+    border-radius: 50%;
+    z-index: 4;
+}
+
+.country_content .arrow{
+    position: absolute;
+    bottom: 13px;
+    right: 18px;
+}
+
+.arrow_hov{
+    transition: .5s;
+}
+
+.country_content .arrow_hov:hover{
+    background-color: #333;
+    color: white;
+}
+
+.sea{
+    margin-top: 60px;
+}
+
+.sea_beach{
+    display: flex;
+    justify-content: space-around;
+    padding: 0 1.7rem;
+}
+
+.sea_beach .boxes{
+    width: 28%;
+    border: 1px solid  whitesmoke;
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.sea_beach .boxes img{
+    width: 100%;
+    position: relative;
+}
+
+.sea_beach .boxes  .beach_pack{
+    padding: 30px;
+    position: relative;
+}
+
+.beach_pack .stars{
+    margin-bottom: 9px;
+    font-size: 13px;
+    color: #fec42d;
+}
+.beach_pack h5{
+    margin-bottom: 15px;
+    font-weight: 700;
+    font-size: 18px;
+    color: black;
+}
+
+.beach_pack .days{
+    color: #727272;  
+}
+
+.beach_pack .days i{
+    color: black;
+}
+
+.beach_pack .days .sp{
+    margin-right: 5px;
+}
+
+.beach_pack .plast{
+    position: absolute;
+    top: -26px;
+    right: 10px;
+    padding: 12px 15px;
+    background-color: #6168FF;
+    border-radius: 30px;
+    color: white;
+    font-size: 16px;
+    transition: .5s;
+}
+
+.sea_beach .boxes:hover .plast{
+    background-color: #212a42;
+}
+
+.partners{
+    margin-top: 7rem;
+    margin-bottom: 7rem;
+}
+
+.partners .partners_content{
+    padding:80px 2.7rem;
+    background-image: url(https://getmasum.com/html-preview/nour/assets/img/bg/client-bg.png);
+    display: flex;
+    justify-content: space-around;
+    background-color: #6168FF;
+}
+
+.partners_content img{
+    border-radius: 4px;
+}
+
+
+
+.people .about{
+    display: flex;
+    justify-content: space-around;
+    padding: 0 1.2rem;
+}
+
+.about .info_box{
+    width: 26%;
+    height: 330px;
+    padding: 40px 28px;
+    text-align: center;
+    background-color: #F4F9FF;
+    border-radius: 4px;
+    z-index: -1;
+    position: relative;
+}
+
+
+.face_img .dirnaq {
+    position: absolute;
+    left: 52%;
+    top: 31%;
+    padding: 8px 13px;
+    background-color: #6168FF;
+    border-radius: 50%;
+    color: white;
+    font-size: 18px;
+}
+
+.face_img img{
+    border-radius: 50%;
+    width: 100px;
+    
+    z-index: 1;
+}
+
+.people_info p{
+    color: #333;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.people_info span{
+    font-size: 15px;
+    font-weight: 400;
+    color: #333;
+    display: block;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.star{
+    color: #ffc000;
+}
+
+.travel .top{
+   margin-top: 70px;
+   margin-bottom: 30px;
+}
+
+.travel .travels{
+    display: flex;
+    justify-content: space-around;
+    padding: 0 2rem;
+}
+
+.travels .latest{
+    width: 28%;
+    border: 1px solid whitesmoke;
+    border-radius: 4px;
+    overflow: hidden;
+    
+}
+
+.latest .travel_img img{
+    width: 100%;
+}
+
+.latest .travel_bottom{
+    padding: 30px;
+}
+
+.travel_bottom span{
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+.travel_bottom h4{
+    font-size: 20px;
+    color: black;
+}
+
+.contact .top{
+    margin-top: 50px;
+    padding-bottom: 40px;
+    margin-bottom: 30px;
+}
+
+.contact_box{
+    display: flex;
+    justify-content: center;
+}
+
+.contact_inside{
+    padding: 55px 40px;
+    background-color: #F4F9FF;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    ;
+}
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
+
+input{
+    border: 0px;
+}
+
+textarea{
+    border: 0px;
+}
+
+.contact{
+    margin-bottom: 80px;
+}
+
+.contact_inside .contactInText{
+    width: 30%;
+    padding: 13px 23px;
+    border-radius: 4px;
+    background-color: #fff;
+    border-color: #fff;
+    border-width: 1px;
+    margin-right: 20px;
+    margin-bottom: 30px;
+}
+
+.contactInText:focus{
+    border: 1px solid;
+    border-color:  #6168FF;
+    box-shadow: none;
+    outline: 0 none;
+    
+}
+
+.contact_inside .textfull{
+    width: 100%;
+    padding: 13px 23px;
+    border-radius: 4px;
+    background-color: #fff;
+    border-color: #fff;
+    border-width: 1px;
+    margin-right: 20px;
+    margin-bottom: 30px;
+}
+
+.text_area{
+    width: 100%;
+    padding: 13px 23px;
+    border-radius: 4px;
+    background-color: #fff;
+    border-color: #fff;
+    border-width: 1px;
+    margin-bottom: 30px;
+}
+
+.action_btn{
+    text-align: center;
+    background-color: #6168FF;
+    border: 2px solid #6168FF;
+    color: #fff;
+    font-size: 13px;
+    padding: 12px 30px;
+    text-transform: uppercase;
+    font-weight: 700;
+    border-radius: 4px;
+    display: inline-block;
+}
+
+#footer{
+    padding: 250px 0 40px;
+    background-color: #00102A;
+    color: #fff;
+    clip-path: polygon(0 250px, 100% 0, 100% 100%, 0% 100%);
+}
+
